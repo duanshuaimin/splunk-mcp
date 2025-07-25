@@ -1,5 +1,6 @@
 servers:
   - name: "splunk_main"
+    description: "Main Splunk server"
     host: "localhost"
     port: 8089
     scheme: "https"
@@ -8,6 +9,7 @@ servers:
     token: ""
     verify: false
   - name: "splunk_secondary"
+    description: "Secondary Splunk server"
     host: "192.168.1.100"
     port: 8089
     scheme: "https"
