@@ -20,6 +20,10 @@ from fastapi.responses import JSONResponse
 from mcp.server.sse import SseServerTransport
 from starlette.routing import Mount
 import uvicorn
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(
