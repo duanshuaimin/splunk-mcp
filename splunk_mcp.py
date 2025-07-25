@@ -9,7 +9,6 @@ from typing import Dict, List, Any, Optional, Union
 
 import splunklib.client
 import yaml
-from decouple import config
 from mcp.server.fastmcp import FastMCP
 from splunklib import results
 import sys
