@@ -1,0 +1,17 @@
+servers:
+  - name: "splunk_main"
+    host: "localhost"
+    port: 8089
+    scheme: "https"
+    username: "admin"
+    password: "changeme"
+    token: ""
+    verify: false
+  - name: "splunk_secondary"
+    host: "192.168.1.100"
+    port: 8089
+    scheme: "https"
+    username: "admin"
+    password: "changeme"
+    token: ""
+    verify: false
